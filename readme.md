@@ -47,4 +47,28 @@ npm run build
 
 1. [Create a FaunaDB account]("https://dashboard.fauna.com/accounts/register");
 2. In the FaunaDB dashboard, create a new database
-   ![Creating a new database](./docs/screenshots/new_database.png);
+   ![Creating a new database](./docs/screenshots/new_database.png)
+3. Create a new collection called matches
+   ![Creating a new collection](./docs/screenshots/new_collection.png)
+4. In the security tab, click "new key" to generate an API secret
+   ![Creating a new api key](./docs/screenshots/new_key.png)
+5. Copy and save the generated API secret - it won't be displayed again
+6. Open the Netlify dashboard
+
+```
+netlify open
+```
+
+7. Navigate to Deploys > Deploy settings > Environment > Environment variables
+8. Add a new variable called FAUNADB_SERVER_SECRET
+   ![Adding an environment variable](./docs/screenshots/add_env_var.png)
+
+### Running the app
+
+The site should be ready to run. Open the live link on the Netlify dashboard, or run
+
+```
+netlify dev
+```
+
+and navigate to http://localhost:8888/ to run locally
