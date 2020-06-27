@@ -42,3 +42,9 @@ netlify init
 ```
 npm run build
 ```
+
+### FaunaDB
+
+1. [Create a FaunaDB account]("https://dashboard.fauna.com/accounts/register");
+2. In the FaunaDB dashboard, create a new database
+   ![Creating a new database](./docs/screenshots/new_database.png);
