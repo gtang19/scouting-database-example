@@ -1,0 +1,22 @@
+{
+  "name": "scouting-database-example",
+  "version": "1.0.0",
+  "description": "Demo using FaunaDB and Netlify Functions for Team 3061 scouting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtang19/scouting-database-example.git"
+  },
+  "author": "Gavin Tang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtang19/scouting-database-example/issues"
+  },
+  "homepage": "https://github.com/gtang19/scouting-database-example#readme",
+  "devDependencies": {
+    "netlify-cli": "^2.54.0"
+  }
+}
