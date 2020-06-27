@@ -2,6 +2,8 @@
 
 This repository uses easy-to-learn technologies to demonstrate basic database functionality, which could be used as supplement or alternative to Google Sheets in the future.
 
+Live demo: https://www.scouting.gavintang.xyz/
+
 ## Local Setup
 
 ### Basic Environment
@@ -72,3 +74,9 @@ netlify dev
 ```
 
 and navigate to http://localhost:8888/ to run locally
+
+## Links to documentation for technologies used
+
+[Netlify]("https://docs.netlify.com/")
+[FauanaDB]("https://docs.fauna.com/")
+[FaunaDB JS driver]("https://fauna.github.io/faunadb-js/index.html")

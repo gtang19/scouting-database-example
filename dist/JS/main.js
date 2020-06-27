@@ -1,4 +1,5 @@
 //Ignore most of this it's not important
+//Don't worry about the messy static code
 let data = {
   A: 0,
   B: 0,
@@ -30,13 +31,21 @@ document.getElementById("refresh").addEventListener("click", () => {
 });
 
 document.getElementById("submit").addEventListener("click", handleSubmit);
+document.getElementById("viewdb").addEventListener("click", viewData);
 
 async function handleSubmit() {
   let submitted = await submitData();
   console.log(`Data submitted. Response from database: `, submitted);
+  viewData();
+}
+
+async function viewData() {
   let allData = await getData();
   console.log(`Data recieved: `, allData);
   document.getElementById("collected").style.display = "none";
+  document.querySelector(".dataentry").style.display = "none";
+  document.getElementById("finish").style.display = "none";
+  document.getElementById("viewdb").style.display = "none";
   document.getElementById("viewdata").style.display = "inline";
   allData.data.forEach((d) => {
     let node = document.createElement("LI");
