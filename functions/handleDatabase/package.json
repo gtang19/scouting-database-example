@@ -1,0 +1,14 @@
+{
+  "name": "handledatabase",
+  "version": "1.0.0",
+  "description": "Netlify serverless function to handle calls to the database",
+  "main": "handleDatabase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gavin Tang",
+  "license": "ISC",
+  "dependencies": {
+    "faunadb": "^2.14.2"
+  }
+}

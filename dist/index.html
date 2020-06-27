@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scouting Database Example</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Scouting Database Proof of Concept</h1>
+        <p>Click the buttons to generate sample data</p>
+
+        <div class="dataentry">
+            <div class="entry">
+                <span>A: </span>
+                <a href="#" data-name="A">0</a>
+            </div>
+            <div class="entry">
+                <span>B: </span>
+                <a href="#" data-name="B">0</a>
+            </div>
+            <div class="entry">
+                <span>C: </span>
+                <a href="#" data-name="C">0</a>
+            </div>
+        </div>
+        <a href="#" id="finish">Finish collecting data</a>
+        <div id="collected" style="display:none">
+            <h4>Here's the data you collected:</h4>
+            <div id="dataarea"></div>
+            <a href="#" id="submit">Submit data</a>
+        </div>
+        <div id="viewdata" style="display:none">
+            <h4>Here is all the data collected:</h4>
+            <ol id="databaseview"></ol>
+            <a href="#" id="refresh">Refresh page</a>
+        </div>
+    </main>
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

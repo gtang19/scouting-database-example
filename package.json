@@ -4,7 +4,7 @@
   "description": "Demo using FaunaDB and Netlify Functions for Team 3061 scouting",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cd functions/handleDatabase; npm i"
   },
   "repository": {
     "type": "git",
