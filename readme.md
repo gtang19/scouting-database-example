@@ -77,6 +77,6 @@ and navigate to http://localhost:8888/ to run locally
 
 ## Links to documentation for technologies used
 
-[Netlify]("https://docs.netlify.com/")
-[FauanaDB]("https://docs.fauna.com/")
-[FaunaDB JS driver]("https://fauna.github.io/faunadb-js/index.html")
+- [Netlify](https://docs.netlify.com/)
+- [FauanaDB](https://docs.fauna.com/)
+- [FaunaDB JS driver](https://fauna.github.io/faunadb-js/index.html)
